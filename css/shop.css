@@ -1,0 +1,62 @@
+.shop{
+    width: 100%;
+    padding: 90px;
+    min-height: 100vh;
+    background: var(--main-color);
+    text-align: center; 
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+}
+.heading h1{
+    font-size: 2rem;
+    color: #FFF;
+    
+}
+.shop-container{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 1rem;
+    margin-top: 5rem;
+    
+}
+.shop-container .box{
+    flex: 1 1 10rem;
+    background: #FFF;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.shop-container .box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -60px;
+}
+.shop-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.shop-container.box h2{
+    color: var(--main-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.shop-container .box span{
+    font-size: 1.4rem;
+    margin: 0.2rem 0 0.5rem;
+}
+

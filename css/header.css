@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-color);
+    box-shadow: 0px 4px 41px rgb(14 55 54 / 80%);
+    padding: 0px 10%;
+    transition: .2s;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 1rem;
+    padding: 11px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home-text{
+    flex: 1 1 17rem;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.home-img{
+    flex: 1 1 17rem;
+    z-index: 1;
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: var(--main-color);
+    clip-path: circle(30rem at right 45rem);
+}
+#vintage{
+    align-items: center;
+}
+
+.home-text span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.home-text h1{
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.home-text h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0.5rem 0 1.4rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 7px 16px;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+    color: var(--main-color);
+    font-weight: 500;
+    text-align: center;
+    transition: .3s;
+}
+
+.btn:hover{
+color: #FFF;
+background: var(--main-color);
+}
